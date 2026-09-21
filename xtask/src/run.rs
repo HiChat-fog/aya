@@ -28,6 +28,7 @@ use crate::{
     ubuntu_mainline::{
         KernelArchitecture, KernelPackage, download_ubuntu_mainline_kernel_packages,
     },
+    ubuntu_ports::download_ubuntu_ports_kernel_packages,
 };
 
 struct GitHubLogGroup;
@@ -63,11 +64,15 @@ enum Environment {
         #[clap(long)]
         cache_dir: PathBuf,
 
-        /// Ubuntu Mainline architecture to resolve kernel version arguments for.
+        /// The architecture to resolve kernel version arguments for. riscv64
+        /// resolves from the Ubuntu ports archive; the rest from Ubuntu
+        /// Mainline.
         #[clap(long, value_enum)]
         kernel_arch: KernelArchitecture,
 
-        /// Ubuntu Mainline versions such as 5.15 or 6.6.
+        /// Ubuntu Mainline versions such as 5.15 or 6.6. For riscv64, the
+        /// exact kernel release available in the Ubuntu ports archive, such
+        /// as 7.2.0-5.
         #[clap(required = true, value_name = "VERSION")]
         kernels: Vec<String>,
     },
@@ -430,13 +435,26 @@ pub(crate) fn run(opts: Options, workspace_root: &Path) -> Result<()> {
             let http_client = HttpClient::new();
 
             let extraction_root = tempfile::tempdir().context("tempdir failed")?;
-            let kernel_packages = download_ubuntu_mainline_kernel_packages(
-                &http_client,
-                &cache_dir,
-                extraction_root.path(),
-                kernel_arch,
-                &kernels,
-            )?;
+            let kernel_packages = match kernel_arch {
+                // Ubuntu Mainline does not publish riscv64 packages; the ports
+                // archive ships the linux-riscv kernel instead.
+                KernelArchitecture::Riscv64 => download_ubuntu_ports_kernel_packages(
+                    &http_client,
+                    &cache_dir,
+                    extraction_root.path(),
+                    kernel_arch,
+                    &kernels,
+                )?,
+                KernelArchitecture::Amd64 | KernelArchitecture::Arm64 => {
+                    download_ubuntu_mainline_kernel_packages(
+                        &http_client,
+                        &cache_dir,
+                        extraction_root.path(),
+                        kernel_arch,
+                        &kernels,
+                    )?
+                }
+            };
 
             let mut errors = Vec::new();
             for kernel_package in kernel_packages {
@@ -486,9 +504,31 @@ pub(crate) fn run(opts: Options, workspace_root: &Path) -> Result<()> {
                         Some("neoverse-n1"),
                         "ttyAMA0",
                     ),
+                    KernelArchitecture::Riscv64 => (
+                        "riscv64",
+                        Some("virt"),
+                        // Same rationale as arm64 above: no KVM/HVF detection,
+                        // and "max" has bitten us before, so pin an emulated
+                        // cpu. `rv64` is QEMU's generic rv64 CPU.
+                        Some("rv64"),
+                        "ttyS0",
+                    ),
                 };
 
-                let target = format!("{guest_arch}-unknown-linux-musl");
+                // QEMU names the machine `riscv64` while the Rust target
+                // triple needs the `riscv64gc` prefix. Unlike the other
+                // architectures, riscv64 uses the GNU target: no musl cross
+                // toolchain is packaged for riscv64, and libbpf-sys compiles
+                // its C with glibc headers, whose `_FILE_OFFSET_BITS=64`
+                // mappings have no counterpart in musl's `libc.a`.
+                // `.cargo/config.toml` links it statically so the binaries can
+                // still run from the initramfs.
+                let target = match kernel_arch {
+                    KernelArchitecture::Riscv64 => "riscv64gc-unknown-linux-gnu".to_owned(),
+                    KernelArchitecture::Amd64 | KernelArchitecture::Arm64 => {
+                        format!("{guest_arch}-unknown-linux-musl")
+                    }
+                };
 
                 let test_distro_args = [
                     "--package",

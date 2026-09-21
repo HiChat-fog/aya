@@ -28,6 +28,7 @@ const UBUNTU_MAINLINE_MODULES_PACKAGE_PREFIX: &str = "linux-modules-";
 pub(crate) enum KernelArchitecture {
     Amd64,
     Arm64,
+    Riscv64,
 }
 
 impl KernelArchitecture {
@@ -35,6 +36,7 @@ impl KernelArchitecture {
         match self {
             Self::Amd64 => "amd64",
             Self::Arm64 => "arm64",
+            Self::Riscv64 => "riscv64",
         }
     }
 }
@@ -81,7 +83,7 @@ fn html_tag_href(tag: &str) -> Option<&str> {
     }
 }
 
-fn directory_listing_urls<'a>(
+pub(crate) fn directory_listing_urls<'a>(
     html: &'a str,
     base_url: &'a str,
 ) -> impl Iterator<Item = Cow<'a, str>> + 'a {
@@ -413,7 +415,7 @@ where
 
 // Require exactly one match; zero or multiple matches mean the package layout
 // or filename rules are not precise enough.
-fn one<T: Debug>(slice: &[T]) -> Result<&T> {
+pub(crate) fn one<T: Debug>(slice: &[T]) -> Result<&T> {
     if let [item] = slice {
         Ok(item)
     } else {
@@ -422,11 +424,11 @@ fn one<T: Debug>(slice: &[T]) -> Result<&T> {
 }
 
 #[derive(Default)]
-struct KernelPackageContents {
-    kernel_images: Vec<PathBuf>,
-    configs: Vec<PathBuf>,
-    modules_dirs: Vec<PathBuf>,
-    system_maps: Vec<PathBuf>,
+pub(crate) struct KernelPackageContents {
+    pub(crate) kernel_images: Vec<PathBuf>,
+    pub(crate) configs: Vec<PathBuf>,
+    pub(crate) modules_dirs: Vec<PathBuf>,
+    pub(crate) system_maps: Vec<PathBuf>,
 }
 
 fn first_component_after<'a>(path: &'a Path, prefix: &str) -> Option<&'a OsStr> {
@@ -500,10 +502,10 @@ fn is_aarch64_pe_image(path: &Path) -> Result<bool> {
 
 // Parsed subset of the EFI zboot header fields we need.
 // https://github.com/torvalds/linux/blob/v6.18/drivers/firmware/efi/libstub/zboot-header.S#L14-L30
-struct EfiZbootHeader<'a> {
-    compression: &'a str,
+pub(crate) struct EfiZbootHeader<'a> {
+    pub(crate) compression: &'a str,
     payload_offset: usize,
-    payload: &'a [u8],
+    pub(crate) payload: &'a [u8],
 }
 
 #[expect(
@@ -519,7 +521,7 @@ fn read_le_u32(image: &[u8], offset: usize, field: &str) -> Result<u32> {
     ))
 }
 
-fn parse_efi_zboot_header(image: &[u8]) -> Result<Option<EfiZbootHeader<'_>>> {
+pub(crate) fn parse_efi_zboot_header(image: &[u8]) -> Result<Option<EfiZbootHeader<'_>>> {
     if image.get(EFI_ZBOOT_MAGIC_OFFSET..EFI_ZBOOT_MAGIC_OFFSET + EFI_ZBOOT_MAGIC.len())
         != Some(EFI_ZBOOT_MAGIC.as_slice())
     {
@@ -632,7 +634,7 @@ fn maybe_extract_qemu_arm64_image(kernel_image: &Path) -> Result<PathBuf> {
     Ok(output)
 }
 
-fn unpack_ubuntu_mainline_image_package(
+pub(crate) fn unpack_ubuntu_mainline_image_package(
     archive: &Path,
     dest: &Path,
     contents: KernelPackageContents,
@@ -665,7 +667,7 @@ fn unpack_ubuntu_mainline_image_package(
     )
 }
 
-fn unpack_ubuntu_mainline_modules_package(
+pub(crate) fn unpack_ubuntu_mainline_modules_package(
     archive: &Path,
     dest: &Path,
     contents: KernelPackageContents,

@@ -5,6 +5,7 @@ mod http;
 mod public_api;
 mod run;
 mod ubuntu_mainline;
+mod ubuntu_ports;
 
 use std::process::{Command, Output};
 

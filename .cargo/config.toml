@@ -24,3 +24,10 @@ linker = "mips-linux-gnu-gcc"
 
 [target.mips64-unknown-linux-gnuabi64]
 linker = "mips64-linux-gnuabi64-gcc"
+
+[target.riscv64gc-unknown-linux-gnu]
+# No musl cross toolchain is packaged for riscv64, so the VM runner uses the
+# GNU target. Statically link so the binaries can run from the initramfs,
+# which carries no dynamic loader.
+linker = "riscv64-linux-gnu-gcc"
+rustflags = ["-C", "target-feature=+crt-static", "-C", "link-arg=-static"]
