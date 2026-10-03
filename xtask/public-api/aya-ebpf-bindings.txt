@@ -523,7 +523,7 @@ pub aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_1::flow_keys: *mut aya_eb
 impl aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_1::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_1
 impl !core::marker::Send for aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_1
@@ -538,7 +538,7 @@ pub aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_2::sk: *mut aya_ebpf_bind
 impl aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_2::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_2
 impl !core::marker::Send for aya_ebpf_bindings::bindings::__sk_buff__bindgen_ty_2
@@ -569,7 +569,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr::task_fd_query: aya_ebpf_bindings::bin
 pub aya_ebpf_bindings::bindings::bpf_attr::test: aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7
 pub aya_ebpf_bindings::bindings::bpf_attr::token_create: aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_20
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr
-pub fn aya_ebpf_bindings::bindings::bpf_attr::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr
+pub fn aya_ebpf_bindings::bindings::bpf_attr::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr
@@ -582,7 +582,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_1::target_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_1::target_ifindex: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_1
@@ -595,7 +595,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_2::count: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_2::prog_cnt: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_2
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10__bindgen_ty_2
@@ -608,7 +608,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_1::map_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_1::prog_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_1
@@ -621,7 +621,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_2::target_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_2::target_ifindex: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_2
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_2
@@ -641,7 +641,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3::tcx: aya
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3::tracing: aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_4
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3::uprobe_multi: aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_7
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3
@@ -654,7 +654,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6__bindgen_ty_1::relative_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6__bindgen_ty_1::relative_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6__bindgen_ty_1
@@ -667,7 +667,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8__bindgen_ty_1::relative_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8__bindgen_ty_1::relative_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8__bindgen_ty_1
@@ -680,7 +680,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_1::new_map_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_1::new_prog_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_1
@@ -693,7 +693,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_2::old_map_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_2::old_prog_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_2
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15__bindgen_ty_2
@@ -706,7 +706,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2__bindgen_ty_1::next_key: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2__bindgen_ty_1::value: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2__bindgen_ty_1
@@ -719,7 +719,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4__bindgen_ty_1::attach_btf_obj_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4__bindgen_ty_1::attach_prog_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4__bindgen_ty_1
@@ -732,7 +732,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_1::target_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_1::target_ifindex: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_1
@@ -745,7 +745,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_2::relative_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_2::relative_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_2
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6__bindgen_ty_2
@@ -761,7 +761,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8__bindgen_ty_1::map_id: a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8__bindgen_ty_1::prog_id: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8__bindgen_ty_1::start_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8__bindgen_ty_1
@@ -774,7 +774,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_cpumap_val__bindgen_ty_1::fd: aya_ebpf_cty::ad::c_int
 pub aya_ebpf_bindings::bindings::bpf_cpumap_val__bindgen_ty_1::id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_cpumap_val__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_cpumap_val__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_cpumap_val__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_cpumap_val__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_cpumap_val__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_cpumap_val__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_cpumap_val__bindgen_ty_1
@@ -787,7 +787,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_c
 pub aya_ebpf_bindings::bindings::bpf_devmap_val__bindgen_ty_1::fd: aya_ebpf_cty::ad::c_int
 pub aya_ebpf_bindings::bindings::bpf_devmap_val__bindgen_ty_1::id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_devmap_val__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_devmap_val__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_devmap_val__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_devmap_val__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_devmap_val__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_devmap_val__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_devmap_val__bindgen_ty_1
@@ -800,7 +800,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_d
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_1::mtu_result: aya_ebpf_bindings::bindings::__u16
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_1::tot_len: aya_ebpf_bindings::bindings::__u16
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_1
@@ -814,7 +814,7 @@ pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_2::flowinfo: aya_ebp
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_2::rt_metric: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_2::tos: aya_ebpf_bindings::bindings::__u8
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_2
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_2
@@ -827,7 +827,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_3::ipv4_src: aya_ebpf_bindings::bindings::__be32
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_3::ipv6_src: [aya_ebpf_bindings::bindings::__u32; 4]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_3::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_3
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_3
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_3
@@ -840,7 +840,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_4::ipv4_dst: aya_ebpf_bindings::bindings::__be32
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_4::ipv6_dst: [aya_ebpf_bindings::bindings::__u32; 4]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_4
-pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_4::clone(&self) -> aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_4
+pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_4::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_4
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_4
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_4
@@ -853,7 +853,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5::__bindgen_anon_1: aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5::tbid: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5
-pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5::clone(&self) -> aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5
+pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5
@@ -866,7 +866,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6::__bindgen_anon_1: aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6::__bindgen_anon_2: aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_2
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6
-pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6::clone(&self) -> aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6
+pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6
@@ -879,7 +879,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 pub aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1::__bindgen_anon_1: aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1::__bindgen_anon_2: aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_2
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1
@@ -893,7 +893,7 @@ pub aya_ebpf_bindings::bindings::bpf_iter_link_info::cgroup: aya_ebpf_bindings::
 pub aya_ebpf_bindings::bindings::bpf_iter_link_info::map: aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_iter_link_info::task: aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_iter_link_info
-pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info::clone(&self) -> aya_ebpf_bindings::bindings::bpf_iter_link_info
+pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_iter_link_info
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_iter_link_info
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_iter_link_info
@@ -918,7 +918,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1::tracing: aya_ebpf_
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1::uprobe_multi: aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1::xdp: aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_6
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1
@@ -933,7 +933,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bin
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1::tracepoint: aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_3
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1::uprobe: aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_1
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1
@@ -945,7 +945,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 #[repr(C)] pub union aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1::map: aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1__bindgen_ty_1
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1
@@ -958,7 +958,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2::cgroup: aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2::task: aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_2
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2
@@ -971,7 +971,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_lpm_trie_key_u8__bindgen_ty_1::hdr: aya_ebpf_bindings::bindings::bpf_lpm_trie_key_hdr
 pub aya_ebpf_bindings::bindings::bpf_lpm_trie_key_u8__bindgen_ty_1::prefixlen: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_lpm_trie_key_u8__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_lpm_trie_key_u8__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_lpm_trie_key_u8__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_lpm_trie_key_u8__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_lpm_trie_key_u8__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_lpm_trie_key_u8__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_lpm_trie_key_u8__bindgen_ty_1
@@ -984,7 +984,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_redir_neigh__bindgen_ty_1::ipv4_nh: aya_ebpf_bindings::bindings::__be32
 pub aya_ebpf_bindings::bindings::bpf_redir_neigh__bindgen_ty_1::ipv6_nh: [aya_ebpf_bindings::bindings::__u32; 4]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_redir_neigh__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_redir_neigh__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_redir_neigh__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_redir_neigh__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_redir_neigh__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_redir_neigh__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_redir_neigh__bindgen_ty_1
@@ -997,7 +997,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_r
 pub aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1::__bindgen_anon_1: aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1::cookie: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1
@@ -1012,7 +1012,7 @@ pub aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1::sk: 
 impl aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sk_lookup__bindgen_ty_1__bindgen_ty_1
@@ -1027,7 +1027,7 @@ pub aya_ebpf_bindings::bindings::bpf_sock_addr__bindgen_ty_1::sk: *mut aya_ebpf_
 impl aya_ebpf_bindings::bindings::bpf_sock_addr__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_sock_addr__bindgen_ty_1::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_addr__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_sock_addr__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_addr__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_sock_addr__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_addr__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sock_addr__bindgen_ty_1
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sock_addr__bindgen_ty_1
@@ -1041,7 +1041,7 @@ pub aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_1::args: [aya_ebpf_bin
 pub aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_1::reply: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_1::replylong: [aya_ebpf_bindings::bindings::__u32; 4]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_1
@@ -1056,7 +1056,7 @@ pub aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_2::sk: *mut aya_ebpf_b
 impl aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_2::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_2
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_2
@@ -1071,7 +1071,7 @@ pub aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_3::skb_data: *mut aya_
 impl aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_3
 pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_3::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_3::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_3
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_3
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_3
@@ -1086,7 +1086,7 @@ pub aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_4::skb_data_end: *mut 
 impl aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_4
 pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_4::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_4
-pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_4::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_4
+pub fn aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_4::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_4
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_4
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sock_ops__bindgen_ty_4
@@ -1099,7 +1099,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_s
 pub aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1::ipv4: aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1::ipv6: aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1
@@ -1114,7 +1114,7 @@ pub aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_1::sk: *mut aya_ebpf_bi
 impl aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_1::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_1
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_1
@@ -1129,7 +1129,7 @@ pub aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_2::optval: *mut aya_ebp
 impl aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_2::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_2
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_2
@@ -1144,7 +1144,7 @@ pub aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_3::optval_end: *mut aya
 impl aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_3
 pub fn aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_3::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_3::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_3
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_3
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sockopt__bindgen_ty_3
@@ -1157,7 +1157,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_s
 pub aya_ebpf_bindings::bindings::bpf_stack_build_id__bindgen_ty_1::ip: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_stack_build_id__bindgen_ty_1::offset: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_stack_build_id__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_stack_build_id__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_stack_build_id__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_stack_build_id__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_stack_build_id__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_stack_build_id__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_stack_build_id__bindgen_ty_1
@@ -1170,7 +1170,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_s
 pub aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_1::remote_ipv4: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_1::remote_ipv6: [aya_ebpf_bindings::bindings::__u32; 4]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_1
@@ -1183,7 +1183,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_t
 pub aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_2::tunnel_ext: aya_ebpf_bindings::bindings::__u16
 pub aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_2::tunnel_flags: aya_ebpf_bindings::bindings::__be16
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_2
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_2
@@ -1196,7 +1196,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_t
 pub aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_3::local_ipv4: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_3::local_ipv6: [aya_ebpf_bindings::bindings::__u32; 4]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_3::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_3
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_3
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_tunnel_key__bindgen_ty_3
@@ -1209,7 +1209,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_t
 pub aya_ebpf_bindings::bindings::bpf_xfrm_state__bindgen_ty_1::remote_ipv4: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_xfrm_state__bindgen_ty_1::remote_ipv6: [aya_ebpf_bindings::bindings::__u32; 4]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_xfrm_state__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_xfrm_state__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_xfrm_state__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_xfrm_state__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_xfrm_state__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_xfrm_state__bindgen_ty_1
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_xfrm_state__bindgen_ty_1
@@ -1224,7 +1224,7 @@ pub aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_1::data: *mut aya_ebpf_ct
 impl aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_1::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_1
 impl !core::marker::Send for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_1
@@ -1239,7 +1239,7 @@ pub aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_2::data_end: *mut aya_ebp
 impl aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_2::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_2
 impl !core::marker::Send for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_2
@@ -1254,7 +1254,7 @@ pub aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_3::sk: *mut aya_ebpf_bind
 impl aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_3
 pub fn aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_3::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_3::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_3
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_3
 impl !core::marker::Send for aya_ebpf_bindings::bindings::sk_msg_md__bindgen_ty_3
@@ -1269,7 +1269,7 @@ pub aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_1::data: *mut aya_e
 impl aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_1::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_1::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_1
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_1
 impl !core::marker::Send for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_1
@@ -1284,7 +1284,7 @@ pub aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_2::data_end: *mut a
 impl aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_2::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_2
 impl !core::marker::Send for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_2
@@ -1299,7 +1299,7 @@ pub aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_3::sk: *mut aya_ebp
 impl aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_3
 pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_3::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_3::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_3
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_3
 impl !core::marker::Send for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_3
@@ -1314,7 +1314,7 @@ pub aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_4::migrating_sk: *m
 impl aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_4
 pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_4::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 8]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_4
-pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_4::clone(&self) -> aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_4
+pub fn aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_4::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_4
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_4
 impl !core::marker::Send for aya_ebpf_bindings::bindings::sk_reuseport_md__bindgen_ty_4
@@ -1341,17 +1341,17 @@ pub unsafe const fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; N]>:
 pub unsafe fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; N]>::raw_set_const<const BIT_OFFSET: usize, const BIT_WIDTH: u8>(*mut Self, u64)
 pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; N]>::set_const<const BIT_OFFSET: usize, const BIT_WIDTH: u8>(&mut self, u64)
 impl<Storage: core::clone::Clone> core::clone::Clone for aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
-pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::clone(&self) -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
+pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::clone(&self) -> Self
 impl<Storage: core::cmp::Eq> core::cmp::Eq for aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
 impl<Storage: core::cmp::Ord> core::cmp::Ord for aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
-pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::cmp(&self, &aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>) -> core::cmp::Ordering
+pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::cmp(&self, &Self) -> core::cmp::Ordering
 impl<Storage: core::cmp::PartialEq> core::cmp::PartialEq for aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
-pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::eq(&self, &aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>) -> bool
+pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::eq(&self, &Self) -> bool
 impl<Storage: core::cmp::PartialEq> core::marker::StructuralPartialEq for aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
 impl<Storage: core::cmp::PartialOrd> core::cmp::PartialOrd for aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
-pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::partial_cmp(&self, &aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>) -> core::option::Option<core::cmp::Ordering>
+pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::partial_cmp(&self, &Self) -> core::option::Option<core::cmp::Ordering>
 impl<Storage: core::default::Default> core::default::Default for aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
-pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::default() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
+pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::default() -> Self
 impl<Storage: core::fmt::Debug> core::fmt::Debug for aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
 pub fn aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl<Storage: core::hash::Hash> core::hash::Hash for aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<Storage>
@@ -1372,7 +1372,7 @@ pub fn aya_ebpf_bindings::bindings::__IncompleteArrayField<T>::as_ptr(&self) -> 
 pub unsafe fn aya_ebpf_bindings::bindings::__IncompleteArrayField<T>::as_slice(&self, usize) -> &[T]
 pub const fn aya_ebpf_bindings::bindings::__IncompleteArrayField<T>::new() -> Self
 impl<T: core::default::Default> core::default::Default for aya_ebpf_bindings::bindings::__IncompleteArrayField<T>
-pub fn aya_ebpf_bindings::bindings::__IncompleteArrayField<T>::default() -> aya_ebpf_bindings::bindings::__IncompleteArrayField<T>
+pub fn aya_ebpf_bindings::bindings::__IncompleteArrayField<T>::default() -> Self
 impl<T> core::fmt::Debug for aya_ebpf_bindings::bindings::__IncompleteArrayField<T>
 pub fn aya_ebpf_bindings::bindings::__IncompleteArrayField<T>::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl<T> core::marker::Freeze for aya_ebpf_bindings::bindings::__IncompleteArrayField<T> where core::marker::PhantomData<T>: core::marker::Freeze, [T; 0]: core::marker::Freeze
@@ -1421,7 +1421,7 @@ pub aya_ebpf_bindings::bindings::__sk_buff::wire_len: aya_ebpf_bindings::binding
 impl aya_ebpf_bindings::bindings::__sk_buff
 pub fn aya_ebpf_bindings::bindings::__sk_buff::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 3]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::__sk_buff
-pub fn aya_ebpf_bindings::bindings::__sk_buff::clone(&self) -> aya_ebpf_bindings::bindings::__sk_buff
+pub fn aya_ebpf_bindings::bindings::__sk_buff::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::__sk_buff
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::__sk_buff
 impl !core::marker::Send for aya_ebpf_bindings::bindings::__sk_buff
@@ -1448,7 +1448,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_1::numa_node: aya_ebpf_bin
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_1::value_size: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_1::value_type_btf_obj_fd: aya_ebpf_bindings::bindings::__s32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_1
@@ -1474,7 +1474,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10::revision: aya_ebpf_bin
 impl aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 4]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_10
@@ -1491,7 +1491,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_11::prog_fd: aya_ebpf_bind
 impl aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_11
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_11::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 4]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_11
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_11::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_11
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_11::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_11
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_11::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_11
@@ -1512,7 +1512,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_12::btf_log_true_size: aya
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_12::btf_size: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_12::btf_token_fd: aya_ebpf_bindings::bindings::__s32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_12
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_12::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_12
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_12::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_12
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_12::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_12
@@ -1534,7 +1534,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_13::probe_addr: aya_ebpf_b
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_13::probe_offset: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_13::prog_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_13
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_13::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_13
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_13::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_13
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_13::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_13
@@ -1552,7 +1552,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14::__bindgen_anon_3: aya_
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14::attach_type: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14::flags: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14
@@ -1565,7 +1565,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_1::iter_info: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_1::iter_info_len: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_1
@@ -1579,7 +1579,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_2
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_2::bpf_cookie: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_2::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_2::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_2
@@ -1597,7 +1597,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_3::flags: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_3::syms: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_3::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_3
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_3::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_3
@@ -1612,7 +1612,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_4::cookie: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_4::target_btf_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_4
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_4::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_4
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_4::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_4
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_4::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_4
@@ -1629,7 +1629,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_5::pf: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_5::priority: aya_ebpf_bindings::bindings::__s32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_5
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_5::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_5
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_5::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_5
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_5::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_5
@@ -1644,7 +1644,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6::__bindgen_anon_1: aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6::expected_revision: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_6
@@ -1662,7 +1662,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_7::pid: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_7::ref_ctr_offsets: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_7
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_7::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_7
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_7::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_7
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_7::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_7
@@ -1677,7 +1677,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8::__bindgen_anon_1: aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8::expected_revision: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_14__bindgen_ty_3__bindgen_ty_8
@@ -1692,7 +1692,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15::__bindgen_anon_2: aya_
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15::flags: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15::link_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_15
@@ -1704,7 +1704,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_16
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_16::link_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_16
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_16::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_16
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_16::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_16
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_16::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_16
@@ -1718,7 +1718,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_17
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_17::type_: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_17
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_17::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_17
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_17::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_17
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_17::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_17
@@ -1733,7 +1733,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_18::flags: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_18::link_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_18
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_18::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_18
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_18::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_18
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_18::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_18
@@ -1749,7 +1749,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_19::flags: aya_ebpf_bindin
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_19::map_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_19::prog_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_19
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_19::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_19
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_19::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_19
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_19::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_19
@@ -1766,7 +1766,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2::flags: aya_ebpf_binding
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2::key: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2::map_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_2
@@ -1779,7 +1779,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_a
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_20::bpffs_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_20::flags: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_20
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_20::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_20
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_20::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_20
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_20::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_20
@@ -1800,7 +1800,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_3::map_fd: aya_ebpf_bindin
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_3::out_batch: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_3::values: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_3::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_3
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_3::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_3
@@ -1840,7 +1840,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4::prog_name: [aya_ebpf_ct
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4::prog_token_fd: aya_ebpf_bindings::bindings::__s32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4::prog_type: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_4
@@ -1855,7 +1855,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_5::file_flags: aya_ebpf_bi
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_5::path_fd: aya_ebpf_bindings::bindings::__s32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_5::pathname: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_5
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_5::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_5
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_5::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_5
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_5::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_5
@@ -1875,7 +1875,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6::attach_type: aya_ebpf_b
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6::expected_revision: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6::replace_bpf_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_6
@@ -1901,7 +1901,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7::prog_fd: aya_ebpf_bindi
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7::repeat: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7::retval: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_7
@@ -1917,7 +1917,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8::__bindgen_anon_1: aya_e
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8::next_id: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8::open_flags: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_8
@@ -1931,7 +1931,7 @@ pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_9::bpf_fd: aya_ebpf_bindin
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_9::info: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_9::info_len: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_9
-pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_9::clone(&self) -> aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_9
+pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_9::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_9
 pub fn aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_9::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_attr__bindgen_ty_9
@@ -1950,7 +1950,7 @@ pub aya_ebpf_bindings::bindings::bpf_btf_info::kernel_btf: aya_ebpf_bindings::bi
 pub aya_ebpf_bindings::bindings::bpf_btf_info::name: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_btf_info::name_len: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_btf_info
-pub fn aya_ebpf_bindings::bindings::bpf_btf_info::clone(&self) -> aya_ebpf_bindings::bindings::bpf_btf_info
+pub fn aya_ebpf_bindings::bindings::bpf_btf_info::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_btf_info
 pub fn aya_ebpf_bindings::bindings::bpf_btf_info::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_btf_info
@@ -1966,7 +1966,7 @@ pub aya_ebpf_bindings::bindings::bpf_cgroup_dev_ctx::access_type: aya_ebpf_bindi
 pub aya_ebpf_bindings::bindings::bpf_cgroup_dev_ctx::major: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_cgroup_dev_ctx::minor: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_cgroup_dev_ctx
-pub fn aya_ebpf_bindings::bindings::bpf_cgroup_dev_ctx::clone(&self) -> aya_ebpf_bindings::bindings::bpf_cgroup_dev_ctx
+pub fn aya_ebpf_bindings::bindings::bpf_cgroup_dev_ctx::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_cgroup_dev_ctx
 pub fn aya_ebpf_bindings::bindings::bpf_cgroup_dev_ctx::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_cgroup_dev_ctx
@@ -1981,7 +1981,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_c
 pub aya_ebpf_bindings::bindings::bpf_cgroup_storage_key::attach_type: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_cgroup_storage_key::cgroup_inode_id: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_cgroup_storage_key
-pub fn aya_ebpf_bindings::bindings::bpf_cgroup_storage_key::clone(&self) -> aya_ebpf_bindings::bindings::bpf_cgroup_storage_key
+pub fn aya_ebpf_bindings::bindings::bpf_cgroup_storage_key::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_cgroup_storage_key
 pub fn aya_ebpf_bindings::bindings::bpf_cgroup_storage_key::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_cgroup_storage_key
@@ -1998,7 +1998,7 @@ pub aya_ebpf_bindings::bindings::bpf_core_relo::insn_off: aya_ebpf_bindings::bin
 pub aya_ebpf_bindings::bindings::bpf_core_relo::kind: aya_ebpf_bindings::bindings::bpf_core_relo_kind::Type
 pub aya_ebpf_bindings::bindings::bpf_core_relo::type_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_core_relo
-pub fn aya_ebpf_bindings::bindings::bpf_core_relo::clone(&self) -> aya_ebpf_bindings::bindings::bpf_core_relo
+pub fn aya_ebpf_bindings::bindings::bpf_core_relo::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_core_relo
 pub fn aya_ebpf_bindings::bindings::bpf_core_relo::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_core_relo
@@ -2013,7 +2013,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_c
 pub aya_ebpf_bindings::bindings::bpf_cpumap_val::bpf_prog: aya_ebpf_bindings::bindings::bpf_cpumap_val__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_cpumap_val::qsize: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_cpumap_val
-pub fn aya_ebpf_bindings::bindings::bpf_cpumap_val::clone(&self) -> aya_ebpf_bindings::bindings::bpf_cpumap_val
+pub fn aya_ebpf_bindings::bindings::bpf_cpumap_val::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_cpumap_val
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_cpumap_val
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_cpumap_val
@@ -2026,7 +2026,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_c
 pub aya_ebpf_bindings::bindings::bpf_devmap_val::bpf_prog: aya_ebpf_bindings::bindings::bpf_devmap_val__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_devmap_val::ifindex: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_devmap_val
-pub fn aya_ebpf_bindings::bindings::bpf_devmap_val::clone(&self) -> aya_ebpf_bindings::bindings::bpf_devmap_val
+pub fn aya_ebpf_bindings::bindings::bpf_devmap_val::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_devmap_val
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_devmap_val
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_devmap_val
@@ -2038,7 +2038,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_d
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_dynptr
 pub aya_ebpf_bindings::bindings::bpf_dynptr::__opaque: [aya_ebpf_bindings::bindings::__u64; 2]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_dynptr
-pub fn aya_ebpf_bindings::bindings::bpf_dynptr::clone(&self) -> aya_ebpf_bindings::bindings::bpf_dynptr
+pub fn aya_ebpf_bindings::bindings::bpf_dynptr::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_dynptr
 pub fn aya_ebpf_bindings::bindings::bpf_dynptr::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_dynptr
@@ -2062,7 +2062,7 @@ pub aya_ebpf_bindings::bindings::bpf_fib_lookup::ifindex: aya_ebpf_bindings::bin
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup::l4_protocol: aya_ebpf_bindings::bindings::__u8
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup::sport: aya_ebpf_bindings::bindings::__be16
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_fib_lookup
-pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup::clone(&self) -> aya_ebpf_bindings::bindings::bpf_fib_lookup
+pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_fib_lookup
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_fib_lookup
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_fib_lookup
@@ -2075,7 +2075,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5__bindgen_ty_1::h_vlan_TCI: aya_ebpf_bindings::bindings::__be16
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5__bindgen_ty_1::h_vlan_proto: aya_ebpf_bindings::bindings::__be16
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_5__bindgen_ty_1
@@ -2089,7 +2089,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_1::mark: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_1
@@ -2104,7 +2104,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_2::dmac: [aya_ebpf_bindings::bindings::__u8; 6]
 pub aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_2::smac: [aya_ebpf_bindings::bindings::__u8; 6]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_2::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_2::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_fib_lookup__bindgen_ty_6__bindgen_ty_2
@@ -2130,7 +2130,7 @@ pub aya_ebpf_bindings::bindings::bpf_flow_keys::nhoff: aya_ebpf_bindings::bindin
 pub aya_ebpf_bindings::bindings::bpf_flow_keys::sport: aya_ebpf_bindings::bindings::__be16
 pub aya_ebpf_bindings::bindings::bpf_flow_keys::thoff: aya_ebpf_bindings::bindings::__u16
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_flow_keys
-pub fn aya_ebpf_bindings::bindings::bpf_flow_keys::clone(&self) -> aya_ebpf_bindings::bindings::bpf_flow_keys
+pub fn aya_ebpf_bindings::bindings::bpf_flow_keys::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_flow_keys
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_flow_keys
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_flow_keys
@@ -2143,7 +2143,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 pub aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_1::ipv4_dst: aya_ebpf_bindings::bindings::__be32
 pub aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_1::ipv4_src: aya_ebpf_bindings::bindings::__be32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_1
@@ -2158,7 +2158,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 pub aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_2::ipv6_dst: [aya_ebpf_bindings::bindings::__u32; 4]
 pub aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_2::ipv6_src: [aya_ebpf_bindings::bindings::__u32; 4]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_2::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_2::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_flow_keys__bindgen_ty_1__bindgen_ty_2
@@ -2173,7 +2173,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_f
 pub aya_ebpf_bindings::bindings::bpf_func_info::insn_off: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_func_info::type_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_func_info
-pub fn aya_ebpf_bindings::bindings::bpf_func_info::clone(&self) -> aya_ebpf_bindings::bindings::bpf_func_info
+pub fn aya_ebpf_bindings::bindings::bpf_func_info::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_func_info
 pub fn aya_ebpf_bindings::bindings::bpf_func_info::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_func_info
@@ -2200,7 +2200,7 @@ pub unsafe fn aya_ebpf_bindings::bindings::bpf_insn::set_src_reg_raw(*mut Self, 
 pub fn aya_ebpf_bindings::bindings::bpf_insn::src_reg(&self) -> aya_ebpf_bindings::bindings::__u8
 pub unsafe fn aya_ebpf_bindings::bindings::bpf_insn::src_reg_raw(*const Self) -> aya_ebpf_bindings::bindings::__u8
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_insn
-pub fn aya_ebpf_bindings::bindings::bpf_insn::clone(&self) -> aya_ebpf_bindings::bindings::bpf_insn
+pub fn aya_ebpf_bindings::bindings::bpf_insn::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_insn
 pub fn aya_ebpf_bindings::bindings::bpf_insn::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_insn
@@ -2214,7 +2214,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_i
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_1::map_fd: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_1
@@ -2230,7 +2230,7 @@ pub aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_2::cgroup_fd: ay
 pub aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_2::cgroup_id: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_2::order: aya_ebpf_bindings::bindings::bpf_cgroup_iter_order::Type
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_2::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_2::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_2
@@ -2246,7 +2246,7 @@ pub aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3::pid: aya_ebpf
 pub aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3::pid_fd: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3::tid: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3
 pub fn aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_iter_link_info__bindgen_ty_3
@@ -2260,7 +2260,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_i
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_iter_num
 pub aya_ebpf_bindings::bindings::bpf_iter_num::__opaque: [aya_ebpf_bindings::bindings::__u64; 1]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_iter_num
-pub fn aya_ebpf_bindings::bindings::bpf_iter_num::clone(&self) -> aya_ebpf_bindings::bindings::bpf_iter_num
+pub fn aya_ebpf_bindings::bindings::bpf_iter_num::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_iter_num
 pub fn aya_ebpf_bindings::bindings::bpf_iter_num::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_iter_num
@@ -2277,7 +2277,7 @@ pub aya_ebpf_bindings::bindings::bpf_line_info::insn_off: aya_ebpf_bindings::bin
 pub aya_ebpf_bindings::bindings::bpf_line_info::line_col: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_line_info::line_off: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_line_info
-pub fn aya_ebpf_bindings::bindings::bpf_line_info::clone(&self) -> aya_ebpf_bindings::bindings::bpf_line_info
+pub fn aya_ebpf_bindings::bindings::bpf_line_info::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_line_info
 pub fn aya_ebpf_bindings::bindings::bpf_line_info::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_line_info
@@ -2294,7 +2294,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info::id: aya_ebpf_bindings::bindings:
 pub aya_ebpf_bindings::bindings::bpf_link_info::prog_id: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info::type_: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info
-pub fn aya_ebpf_bindings::bindings::bpf_link_info::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info
+pub fn aya_ebpf_bindings::bindings::bpf_link_info::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_link_info
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_link_info
@@ -2307,7 +2307,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_1::tp_name: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_1::tp_name_len: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_1
@@ -2328,7 +2328,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10::pat
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10::pid: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10::ref_ctr_offsets: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_10
@@ -2346,7 +2346,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11::typ
 impl aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 4]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11
@@ -2361,7 +2361,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bin
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_1::name_len: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_1::offset: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_1
@@ -2380,7 +2380,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bin
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_2::name_len: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_2::offset: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_2::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_2::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_2
@@ -2399,7 +2399,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bin
 impl aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_3
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_3::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 4]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_3::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_3
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_3::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_3
@@ -2418,7 +2418,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bin
 impl aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_4
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_4::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 4]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_4
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_4::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_4
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_4::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_4
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_4::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_11__bindgen_ty_1__bindgen_ty_4
@@ -2433,7 +2433,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_12::attach_type: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_12::ifindex: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_12
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_12::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_12
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_12::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_12
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_12::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_12
@@ -2448,7 +2448,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_13::attach_type: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_13::ifindex: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_13
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_13::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_13
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_13::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_13
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_13::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_13
@@ -2463,7 +2463,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_14::attach_type: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_14::map_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_14
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_14::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_14
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_14::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_14
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_14::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_14
@@ -2479,7 +2479,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_2::atta
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_2::target_btf_id: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_2::target_obj_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_2::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_2::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_2
@@ -2494,7 +2494,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_3::attach_type: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_3::cgroup_id: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_3
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_3::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_3
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_3::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_3
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_3::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_3
@@ -2511,7 +2511,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4::__bi
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4::target_name: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4::target_name_len: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4
@@ -2523,7 +2523,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1__bindgen_ty_1::map_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_1__bindgen_ty_1
@@ -2538,7 +2538,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_1::cgroup_id: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_1::order: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_1
@@ -2553,7 +2553,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_2::pid: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_2::tid: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_2::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_2::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_4__bindgen_ty_2__bindgen_ty_2
@@ -2568,7 +2568,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_5::attach_type: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_5::netns_ino: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_5
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_5::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_5
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_5::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_5
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_5::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_5
@@ -2582,7 +2582,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_6
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_6::ifindex: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_6
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_6::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_6
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_6::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_6
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_6::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_6
@@ -2596,7 +2596,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_7
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_7::map_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_7
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_7::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_7
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_7::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_7
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_7::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_7
@@ -2613,7 +2613,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_8::hook
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_8::pf: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_8::priority: aya_ebpf_bindings::bindings::__s32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_8
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_8::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_8
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_8::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_8
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_8::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_8
@@ -2631,7 +2631,7 @@ pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_9::coun
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_9::flags: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_9::missed: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_9
-pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_9::clone(&self) -> aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_9
+pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_9::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_9
 pub fn aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_9::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_link_info__bindgen_ty_1__bindgen_ty_9
@@ -2645,7 +2645,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_list_head
 pub aya_ebpf_bindings::bindings::bpf_list_head::__opaque: [aya_ebpf_bindings::bindings::__u64; 2]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_list_head
-pub fn aya_ebpf_bindings::bindings::bpf_list_head::clone(&self) -> aya_ebpf_bindings::bindings::bpf_list_head
+pub fn aya_ebpf_bindings::bindings::bpf_list_head::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_list_head
 pub fn aya_ebpf_bindings::bindings::bpf_list_head::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_list_head
@@ -2659,7 +2659,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_list_node
 pub aya_ebpf_bindings::bindings::bpf_list_node::__opaque: [aya_ebpf_bindings::bindings::__u64; 3]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_list_node
-pub fn aya_ebpf_bindings::bindings::bpf_list_node::clone(&self) -> aya_ebpf_bindings::bindings::bpf_list_node
+pub fn aya_ebpf_bindings::bindings::bpf_list_node::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_list_node
 pub fn aya_ebpf_bindings::bindings::bpf_list_node::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_list_node
@@ -2685,7 +2685,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_l
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_lpm_trie_key_hdr
 pub aya_ebpf_bindings::bindings::bpf_lpm_trie_key_hdr::prefixlen: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_lpm_trie_key_hdr
-pub fn aya_ebpf_bindings::bindings::bpf_lpm_trie_key_hdr::clone(&self) -> aya_ebpf_bindings::bindings::bpf_lpm_trie_key_hdr
+pub fn aya_ebpf_bindings::bindings::bpf_lpm_trie_key_hdr::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_lpm_trie_key_hdr
 pub fn aya_ebpf_bindings::bindings::bpf_lpm_trie_key_hdr::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_lpm_trie_key_hdr
@@ -2739,7 +2739,7 @@ pub aya_ebpf_bindings::bindings::bpf_map_info::netns_ino: aya_ebpf_bindings::bin
 pub aya_ebpf_bindings::bindings::bpf_map_info::type_: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_map_info::value_size: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_map_info
-pub fn aya_ebpf_bindings::bindings::bpf_map_info::clone(&self) -> aya_ebpf_bindings::bindings::bpf_map_info
+pub fn aya_ebpf_bindings::bindings::bpf_map_info::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_map_info
 pub fn aya_ebpf_bindings::bindings::bpf_map_info::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_map_info
@@ -2755,7 +2755,7 @@ pub aya_ebpf_bindings::bindings::bpf_perf_event_data::addr: aya_ebpf_bindings::b
 pub aya_ebpf_bindings::bindings::bpf_perf_event_data::regs: aya_ebpf_bindings::bindings::bpf_user_pt_regs_t
 pub aya_ebpf_bindings::bindings::bpf_perf_event_data::sample_period: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_perf_event_data
-pub fn aya_ebpf_bindings::bindings::bpf_perf_event_data::clone(&self) -> aya_ebpf_bindings::bindings::bpf_perf_event_data
+pub fn aya_ebpf_bindings::bindings::bpf_perf_event_data::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_perf_event_data
 pub fn aya_ebpf_bindings::bindings::bpf_perf_event_data::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_perf_event_data
@@ -2771,7 +2771,7 @@ pub aya_ebpf_bindings::bindings::bpf_perf_event_value::counter: aya_ebpf_binding
 pub aya_ebpf_bindings::bindings::bpf_perf_event_value::enabled: aya_ebpf_bindings::bindings::__u64
 pub aya_ebpf_bindings::bindings::bpf_perf_event_value::running: aya_ebpf_bindings::bindings::__u64
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_perf_event_value
-pub fn aya_ebpf_bindings::bindings::bpf_perf_event_value::clone(&self) -> aya_ebpf_bindings::bindings::bpf_perf_event_value
+pub fn aya_ebpf_bindings::bindings::bpf_perf_event_value::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_perf_event_value
 pub fn aya_ebpf_bindings::bindings::bpf_perf_event_value::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_perf_event_value
@@ -2786,7 +2786,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_p
 pub aya_ebpf_bindings::bindings::bpf_pidns_info::pid: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_pidns_info::tgid: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_pidns_info
-pub fn aya_ebpf_bindings::bindings::bpf_pidns_info::clone(&self) -> aya_ebpf_bindings::bindings::bpf_pidns_info
+pub fn aya_ebpf_bindings::bindings::bpf_pidns_info::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_pidns_info
 pub fn aya_ebpf_bindings::bindings::bpf_pidns_info::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_pidns_info
@@ -2843,7 +2843,7 @@ pub fn aya_ebpf_bindings::bindings::bpf_prog_info::new_bitfield_1(aya_ebpf_bindi
 pub fn aya_ebpf_bindings::bindings::bpf_prog_info::set_gpl_compatible(&mut self, aya_ebpf_bindings::bindings::__u32)
 pub unsafe fn aya_ebpf_bindings::bindings::bpf_prog_info::set_gpl_compatible_raw(*mut Self, aya_ebpf_bindings::bindings::__u32)
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_prog_info
-pub fn aya_ebpf_bindings::bindings::bpf_prog_info::clone(&self) -> aya_ebpf_bindings::bindings::bpf_prog_info
+pub fn aya_ebpf_bindings::bindings::bpf_prog_info::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_prog_info
 pub fn aya_ebpf_bindings::bindings::bpf_prog_info::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_prog_info
@@ -2868,7 +2868,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_r
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_rb_node
 pub aya_ebpf_bindings::bindings::bpf_rb_node::__opaque: [aya_ebpf_bindings::bindings::__u64; 4]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_rb_node
-pub fn aya_ebpf_bindings::bindings::bpf_rb_node::clone(&self) -> aya_ebpf_bindings::bindings::bpf_rb_node
+pub fn aya_ebpf_bindings::bindings::bpf_rb_node::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_rb_node
 pub fn aya_ebpf_bindings::bindings::bpf_rb_node::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_rb_node
@@ -2882,7 +2882,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_r
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_rb_root
 pub aya_ebpf_bindings::bindings::bpf_rb_root::__opaque: [aya_ebpf_bindings::bindings::__u64; 2]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_rb_root
-pub fn aya_ebpf_bindings::bindings::bpf_rb_root::clone(&self) -> aya_ebpf_bindings::bindings::bpf_rb_root
+pub fn aya_ebpf_bindings::bindings::bpf_rb_root::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_rb_root
 pub fn aya_ebpf_bindings::bindings::bpf_rb_root::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_rb_root
@@ -2897,7 +2897,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_r
 pub aya_ebpf_bindings::bindings::bpf_redir_neigh::__bindgen_anon_1: aya_ebpf_bindings::bindings::bpf_redir_neigh__bindgen_ty_1
 pub aya_ebpf_bindings::bindings::bpf_redir_neigh::nh_family: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_redir_neigh
-pub fn aya_ebpf_bindings::bindings::bpf_redir_neigh::clone(&self) -> aya_ebpf_bindings::bindings::bpf_redir_neigh
+pub fn aya_ebpf_bindings::bindings::bpf_redir_neigh::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_redir_neigh
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_redir_neigh
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_redir_neigh
@@ -2909,7 +2909,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_r
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_refcount
 pub aya_ebpf_bindings::bindings::bpf_refcount::__opaque: [aya_ebpf_bindings::bindings::__u32; 1]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_refcount
-pub fn aya_ebpf_bindings::bindings::bpf_refcount::clone(&self) -> aya_ebpf_bindings::bindings::bpf_refcount
+pub fn aya_ebpf_bindings::bindings::bpf_refcount::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_refcount
 pub fn aya_ebpf_bindings::bindings::bpf_refcount::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_refcount
@@ -2935,7 +2935,7 @@ pub aya_ebpf_bindings::bindings::bpf_sk_lookup::remote_port: aya_ebpf_bindings::
 impl aya_ebpf_bindings::bindings::bpf_sk_lookup
 pub fn aya_ebpf_bindings::bindings::bpf_sk_lookup::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 2]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sk_lookup
-pub fn aya_ebpf_bindings::bindings::bpf_sk_lookup::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sk_lookup
+pub fn aya_ebpf_bindings::bindings::bpf_sk_lookup::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sk_lookup
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sk_lookup
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sk_lookup
@@ -2963,7 +2963,7 @@ pub aya_ebpf_bindings::bindings::bpf_sock::type_: aya_ebpf_bindings::bindings::_
 impl aya_ebpf_bindings::bindings::bpf_sock
 pub fn aya_ebpf_bindings::bindings::bpf_sock::new_bitfield_1() -> aya_ebpf_bindings::bindings::__BindgenBitfieldUnit<[u8; 2]>
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock
-pub fn aya_ebpf_bindings::bindings::bpf_sock::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock
+pub fn aya_ebpf_bindings::bindings::bpf_sock::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_sock
 pub fn aya_ebpf_bindings::bindings::bpf_sock::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock
@@ -2986,7 +2986,7 @@ pub aya_ebpf_bindings::bindings::bpf_sock_addr::user_ip4: aya_ebpf_bindings::bin
 pub aya_ebpf_bindings::bindings::bpf_sock_addr::user_ip6: [aya_ebpf_bindings::bindings::__u32; 4]
 pub aya_ebpf_bindings::bindings::bpf_sock_addr::user_port: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_addr
-pub fn aya_ebpf_bindings::bindings::bpf_sock_addr::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_addr
+pub fn aya_ebpf_bindings::bindings::bpf_sock_addr::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_addr
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sock_addr
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sock_addr
@@ -3038,7 +3038,7 @@ pub aya_ebpf_bindings::bindings::bpf_sock_ops::srtt_us: aya_ebpf_bindings::bindi
 pub aya_ebpf_bindings::bindings::bpf_sock_ops::state: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_sock_ops::total_retrans: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_ops
-pub fn aya_ebpf_bindings::bindings::bpf_sock_ops::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_ops
+pub fn aya_ebpf_bindings::bindings::bpf_sock_ops::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_ops
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sock_ops
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sock_ops
@@ -3050,7 +3050,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_s
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_sock_tuple
 pub aya_ebpf_bindings::bindings::bpf_sock_tuple::__bindgen_anon_1: aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_tuple
-pub fn aya_ebpf_bindings::bindings::bpf_sock_tuple::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_tuple
+pub fn aya_ebpf_bindings::bindings::bpf_sock_tuple::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_tuple
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sock_tuple
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_sock_tuple
@@ -3065,7 +3065,7 @@ pub aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1::dpo
 pub aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1::saddr: aya_ebpf_bindings::bindings::__be32
 pub aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1::sport: aya_ebpf_bindings::bindings::__be16
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1
-pub fn aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1
+pub fn aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1
 pub fn aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_1
@@ -3082,7 +3082,7 @@ pub aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2::dpo
 pub aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2::saddr: [aya_ebpf_bindings::bindings::__be32; 4]
 pub aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2::sport: aya_ebpf_bindings::bindings::__be16
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2
-pub fn aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2
+pub fn aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2
 pub fn aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sock_tuple__bindgen_ty_1__bindgen_ty_2
@@ -3102,7 +3102,7 @@ pub aya_ebpf_bindings::bindings::bpf_sockopt::optlen: aya_ebpf_bindings::binding
 pub aya_ebpf_bindings::bindings::bpf_sockopt::optname: aya_ebpf_bindings::bindings::__s32
 pub aya_ebpf_bindings::bindings::bpf_sockopt::retval: aya_ebpf_bindings::bindings::__s32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sockopt
-pub fn aya_ebpf_bindings::bindings::bpf_sockopt::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sockopt
+pub fn aya_ebpf_bindings::bindings::bpf_sockopt::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sockopt
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_sockopt
 impl !core::marker::Send for aya_ebpf_bindings::bindings::bpf_sockopt
@@ -3114,7 +3114,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_s
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_spin_lock
 pub aya_ebpf_bindings::bindings::bpf_spin_lock::val: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_spin_lock
-pub fn aya_ebpf_bindings::bindings::bpf_spin_lock::clone(&self) -> aya_ebpf_bindings::bindings::bpf_spin_lock
+pub fn aya_ebpf_bindings::bindings::bpf_spin_lock::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_spin_lock
 pub fn aya_ebpf_bindings::bindings::bpf_spin_lock::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_spin_lock
@@ -3130,7 +3130,7 @@ pub aya_ebpf_bindings::bindings::bpf_stack_build_id::__bindgen_anon_1: aya_ebpf_
 pub aya_ebpf_bindings::bindings::bpf_stack_build_id::build_id: [aya_ebpf_cty::c_uchar; 20]
 pub aya_ebpf_bindings::bindings::bpf_stack_build_id::status: aya_ebpf_bindings::bindings::__s32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_stack_build_id
-pub fn aya_ebpf_bindings::bindings::bpf_stack_build_id::clone(&self) -> aya_ebpf_bindings::bindings::bpf_stack_build_id
+pub fn aya_ebpf_bindings::bindings::bpf_stack_build_id::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_stack_build_id
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_stack_build_id
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_stack_build_id
@@ -3143,7 +3143,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_s
 pub aya_ebpf_bindings::bindings::bpf_sysctl::file_pos: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_sysctl::write: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_sysctl
-pub fn aya_ebpf_bindings::bindings::bpf_sysctl::clone(&self) -> aya_ebpf_bindings::bindings::bpf_sysctl
+pub fn aya_ebpf_bindings::bindings::bpf_sysctl::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_sysctl
 pub fn aya_ebpf_bindings::bindings::bpf_sysctl::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_sysctl
@@ -3182,7 +3182,7 @@ pub aya_ebpf_bindings::bindings::bpf_tcp_sock::snd_una: aya_ebpf_bindings::bindi
 pub aya_ebpf_bindings::bindings::bpf_tcp_sock::srtt_us: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_tcp_sock::total_retrans: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_tcp_sock
-pub fn aya_ebpf_bindings::bindings::bpf_tcp_sock::clone(&self) -> aya_ebpf_bindings::bindings::bpf_tcp_sock
+pub fn aya_ebpf_bindings::bindings::bpf_tcp_sock::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_tcp_sock
 pub fn aya_ebpf_bindings::bindings::bpf_tcp_sock::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_tcp_sock
@@ -3196,7 +3196,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_t
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_timer
 pub aya_ebpf_bindings::bindings::bpf_timer::__opaque: [aya_ebpf_bindings::bindings::__u64; 2]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_timer
-pub fn aya_ebpf_bindings::bindings::bpf_timer::clone(&self) -> aya_ebpf_bindings::bindings::bpf_timer
+pub fn aya_ebpf_bindings::bindings::bpf_timer::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_timer
 pub fn aya_ebpf_bindings::bindings::bpf_timer::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_timer
@@ -3216,7 +3216,7 @@ pub aya_ebpf_bindings::bindings::bpf_tunnel_key::tunnel_label: aya_ebpf_bindings
 pub aya_ebpf_bindings::bindings::bpf_tunnel_key::tunnel_tos: aya_ebpf_bindings::bindings::__u8
 pub aya_ebpf_bindings::bindings::bpf_tunnel_key::tunnel_ttl: aya_ebpf_bindings::bindings::__u8
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_tunnel_key
-pub fn aya_ebpf_bindings::bindings::bpf_tunnel_key::clone(&self) -> aya_ebpf_bindings::bindings::bpf_tunnel_key
+pub fn aya_ebpf_bindings::bindings::bpf_tunnel_key::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_tunnel_key
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_tunnel_key
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_tunnel_key
@@ -3228,7 +3228,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_t
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_wq
 pub aya_ebpf_bindings::bindings::bpf_wq::__opaque: [aya_ebpf_bindings::bindings::__u64; 2]
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_wq
-pub fn aya_ebpf_bindings::bindings::bpf_wq::clone(&self) -> aya_ebpf_bindings::bindings::bpf_wq
+pub fn aya_ebpf_bindings::bindings::bpf_wq::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_wq
 pub fn aya_ebpf_bindings::bindings::bpf_wq::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_wq
@@ -3242,7 +3242,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::bpf_w
 #[repr(C)] pub struct aya_ebpf_bindings::bindings::bpf_xdp_sock
 pub aya_ebpf_bindings::bindings::bpf_xdp_sock::queue_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_xdp_sock
-pub fn aya_ebpf_bindings::bindings::bpf_xdp_sock::clone(&self) -> aya_ebpf_bindings::bindings::bpf_xdp_sock
+pub fn aya_ebpf_bindings::bindings::bpf_xdp_sock::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::bpf_xdp_sock
 pub fn aya_ebpf_bindings::bindings::bpf_xdp_sock::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_xdp_sock
@@ -3260,7 +3260,7 @@ pub aya_ebpf_bindings::bindings::bpf_xfrm_state::family: aya_ebpf_bindings::bind
 pub aya_ebpf_bindings::bindings::bpf_xfrm_state::reqid: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::bpf_xfrm_state::spi: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::bpf_xfrm_state
-pub fn aya_ebpf_bindings::bindings::bpf_xfrm_state::clone(&self) -> aya_ebpf_bindings::bindings::bpf_xfrm_state
+pub fn aya_ebpf_bindings::bindings::bpf_xfrm_state::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::bpf_xfrm_state
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::bpf_xfrm_state
 impl core::marker::Send for aya_ebpf_bindings::bindings::bpf_xfrm_state
@@ -3274,7 +3274,7 @@ pub aya_ebpf_bindings::bindings::btf_ptr::flags: aya_ebpf_bindings::bindings::__
 pub aya_ebpf_bindings::bindings::btf_ptr::ptr: *mut aya_ebpf_cty::c_void
 pub aya_ebpf_bindings::bindings::btf_ptr::type_id: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::btf_ptr
-pub fn aya_ebpf_bindings::bindings::btf_ptr::clone(&self) -> aya_ebpf_bindings::bindings::btf_ptr
+pub fn aya_ebpf_bindings::bindings::btf_ptr::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::btf_ptr
 pub fn aya_ebpf_bindings::bindings::btf_ptr::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::btf_ptr
@@ -3388,7 +3388,7 @@ pub aya_ebpf_bindings::bindings::pt_regs::rsi: aya_ebpf_cty::od::c_ulong
 pub aya_ebpf_bindings::bindings::pt_regs::rsp: aya_ebpf_cty::od::c_ulong
 pub aya_ebpf_bindings::bindings::pt_regs::ss: aya_ebpf_cty::od::c_ulong
 impl core::clone::Clone for aya_ebpf_bindings::bindings::pt_regs
-pub fn aya_ebpf_bindings::bindings::pt_regs::clone(&self) -> aya_ebpf_bindings::bindings::pt_regs
+pub fn aya_ebpf_bindings::bindings::pt_regs::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::pt_regs
 pub fn aya_ebpf_bindings::bindings::pt_regs::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::pt_regs
@@ -3422,7 +3422,7 @@ pub aya_ebpf_bindings::bindings::sk_msg_md::remote_ip6: [aya_ebpf_bindings::bind
 pub aya_ebpf_bindings::bindings::sk_msg_md::remote_port: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::sk_msg_md::size: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::sk_msg_md
-pub fn aya_ebpf_bindings::bindings::sk_msg_md::clone(&self) -> aya_ebpf_bindings::bindings::sk_msg_md
+pub fn aya_ebpf_bindings::bindings::sk_msg_md::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::sk_msg_md
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::sk_msg_md
 impl !core::marker::Send for aya_ebpf_bindings::bindings::sk_msg_md
@@ -3442,7 +3442,7 @@ pub aya_ebpf_bindings::bindings::sk_reuseport_md::hash: aya_ebpf_bindings::bindi
 pub aya_ebpf_bindings::bindings::sk_reuseport_md::ip_protocol: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::sk_reuseport_md::len: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::sk_reuseport_md
-pub fn aya_ebpf_bindings::bindings::sk_reuseport_md::clone(&self) -> aya_ebpf_bindings::bindings::sk_reuseport_md
+pub fn aya_ebpf_bindings::bindings::sk_reuseport_md::clone(&self) -> Self
 impl core::marker::Copy for aya_ebpf_bindings::bindings::sk_reuseport_md
 impl core::marker::Freeze for aya_ebpf_bindings::bindings::sk_reuseport_md
 impl !core::marker::Send for aya_ebpf_bindings::bindings::sk_reuseport_md
@@ -3455,7 +3455,7 @@ impl core::panic::unwind_safe::UnwindSafe for aya_ebpf_bindings::bindings::sk_re
 pub aya_ebpf_bindings::bindings::sockaddr::sa_data: [aya_ebpf_cty::ad::c_char; 14]
 pub aya_ebpf_bindings::bindings::sockaddr::sa_family: aya_ebpf_bindings::bindings::sa_family_t
 impl core::clone::Clone for aya_ebpf_bindings::bindings::sockaddr
-pub fn aya_ebpf_bindings::bindings::sockaddr::clone(&self) -> aya_ebpf_bindings::bindings::sockaddr
+pub fn aya_ebpf_bindings::bindings::sockaddr::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::sockaddr
 pub fn aya_ebpf_bindings::bindings::sockaddr::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::sockaddr
@@ -3564,7 +3564,7 @@ pub aya_ebpf_bindings::bindings::xdp_md::egress_ifindex: aya_ebpf_bindings::bind
 pub aya_ebpf_bindings::bindings::xdp_md::ingress_ifindex: aya_ebpf_bindings::bindings::__u32
 pub aya_ebpf_bindings::bindings::xdp_md::rx_queue_index: aya_ebpf_bindings::bindings::__u32
 impl core::clone::Clone for aya_ebpf_bindings::bindings::xdp_md
-pub fn aya_ebpf_bindings::bindings::xdp_md::clone(&self) -> aya_ebpf_bindings::bindings::xdp_md
+pub fn aya_ebpf_bindings::bindings::xdp_md::clone(&self) -> Self
 impl core::fmt::Debug for aya_ebpf_bindings::bindings::xdp_md
 pub fn aya_ebpf_bindings::bindings::xdp_md::fmt(&self, &mut core::fmt::Formatter<'_>) -> core::fmt::Result
 impl core::marker::Copy for aya_ebpf_bindings::bindings::xdp_md
